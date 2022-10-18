@@ -39,7 +39,6 @@
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="my_profile" aria-expanded="false"><i
                                     class="mdi mdi-account-network"></i><span class="hide-menu">Profile</span></a></li>
-
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="form" aria-expanded="false"><i class="mdi mdi-home-outline"></i><span
                                     class="hide-menu">Real Estate Form</span></a></li>
