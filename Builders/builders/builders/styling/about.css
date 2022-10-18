@@ -1,0 +1,155 @@
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color:transparent;
+    background:url(../images/image-666.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+ .active-link{
+    color: #ffc107;
+}
+
+ li a:hover{
+    color: #ffc107;
+}
+
+.about-section{
+
+    background-size: 100%;
+
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+
+    float:none;
+    /*background: url(images/vase.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background-color: rgba(0,0,0,0.5);    height:100%;
+    width: 100%;;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    margin: 0 10;
+    border-radius:0.5rem;
+
+}
+
+.inner-container h1{
+    
+    font-size: 30px;
+    font-weight: 900;
+    color:black;
+    text-align:center;
+    color:white;
+    padding: 30px;
+
+    
+    
+}
+
+.text{
+    position:relative;
+    font-size: 18px;
+    color: white;
+    padding-left: 30px;
+    padding-right:30px;
+    line-height: 50px;
+    text-align:justify;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    padding-bottom:50px ;
+    font-family: Trebuchet;
+}
+
+
+
+
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('../fonts/montserrat/Montserrat-SemiBold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-Regular;
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}

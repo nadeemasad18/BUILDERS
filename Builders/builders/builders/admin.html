@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builders Real Estate</title>
+    <link rel='icon' href='images/home-1.jpg' type='image/x-icon' sizes="16x16" />
+
+
+
+
+    
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styling/admin.css">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!---- This is NavBar group-->
+
+
+      
+      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+<body>
+
+    <div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar bg-dark">
+			<div class="sidebar-content js-simplebar bg-dark">
+				<a class="sidebar-brand" href="index.html">
+                    <ol class="navbar-brand" href="index.html"><span class="text-warning">Buil</span>ders</ol>
+                </a>
+
+				<ul class="sidebar-nav bg-dark">
+					<li class="sidebar-header">
+						Pages
+					</li>
+
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="index.html">
+              <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item ">
+						<a class="sidebar-link" href="pages-profile.html">
+              <i class="align-middle" data-feather="user"></i> <span class="align-middle">Profile</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="pages-sign-in.html">
+              <i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Sign In</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="pages-sign-up.html">
+              <i class="align-middle" data-feather="user-plus"></i> <span class="align-middle">Sign Up</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="pages-blank.html">
+              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Blank</span>
+            </a>
+					</li>
+
+				
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="charts-chartjs.html">
+              <i class="align-middle" data-feather="bar-chart-2"></i> <span class="align-middle">Charts</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="maps-google.html">
+              <i class="align-middle" data-feather="map"></i> <span class="align-middle">Maps</span>
+            </a>
+					</li>
+				</ul>
+
+
+			</div>
+		</nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle js-sidebar-toggle">
+          <i class="hamburger align-self-center"></i>
+        </a>
+
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav navbar-align bg-white">
+						<li class="nav-item dropdown ">
+							<a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+								<div class="position-relative">
+									<i class="align-middle" data-feather="bell"></i>
+									<span class="indicator">4</span>
+								</div>
+							</a>
+							<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="alertsDropdown">
+								<div class="dropdown-menu-header" >
+									10 New Notifications
+								</div>
+								<div class="list-group">
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-danger" data-feather="alert-circle"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Update completed</div>
+												<div class="text-muted small mt-1">Restart server 12 to complete the update.</div>
+												<div class="text-muted small mt-1">30m ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-warning" data-feather="bell"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Lorem ipsum</div>
+												<div class="text-muted small mt-1">Aliquam ex eros, imperdiet vulputate hendrerit et.</div>
+												<div class="text-muted small mt-1">2h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-primary" data-feather="home"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Login from 192.186.1.8</div>
+												<div class="text-muted small mt-1">5h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<i class="text-success" data-feather="user-plus"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">New connection</div>
+												<div class="text-muted small mt-1">Christina accepted your request.</div>
+												<div class="text-muted small mt-1">14h ago</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="dropdown-menu-footer">
+									<a href="#" class="text-muted">Show all notifications</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+								<div class="position-relative">
+									<i class="align-middle" data-feather="message-square"></i>
+								</div>
+							</a>
+							<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="messagesDropdown">
+								<div class="dropdown-menu-header">
+									<div class="position-relative">
+										4 New Messages
+									</div>
+								</div>
+								<div class="list-group">
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-5.jpg" class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">Vanessa Tucker</div>
+												<div class="text-muted small mt-1">Nam pretium turpis et arcu. Duis arcu tortor.</div>
+												<div class="text-muted small mt-1">15m ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="images/black-chair.avif" class="avatar img-fluid rounded-circle" alt="William Harris">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">William Harris</div>
+												<div class="text-muted small mt-1">Curabitur ligula sapien euismod vitae.</div>
+												<div class="text-muted small mt-1">2h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-4.jpg" class="avatar img-fluid rounded-circle" alt="Christina Mason">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">Christina Mason</div>
+												<div class="text-muted small mt-1">Pellentesque auctor neque nec urna.</div>
+												<div class="text-muted small mt-1">4h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row g-0 align-items-center">
+											<div class="col-2">
+												<img src="img/avatars/avatar-3.jpg" class="avatar img-fluid rounded-circle" alt="Sharon Lessman">
+											</div>
+											<div class="col-10 ps-2">
+												<div class="text-dark">Sharon Lessman</div>
+												<div class="text-muted small mt-1">Aenean tellus metus, bibendum sed, posuere ac, mattis non.</div>
+												<div class="text-muted small mt-1">5h ago</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="dropdown-menu-footer">
+									<a href="#" class="text-muted">Show all messages</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+                <i class="align-middle" data-feather="settings"></i>
+              </a>
+
+							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                <img src="data:image/jpeg;base64,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" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Nadeem</span>
+              </a>
+							<div class="dropdown-menu dropdown-menu-end">
+								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
+								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
+								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Log out</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<main class="content">
+				<div class="container-fluid p-0">
+
+					<h1 class="h3 mb-3"><strong>Analytics</strong> Dashboard</h1>
+
+					<div class="row">
+						<div class="col-xl-6 col-xxl-5 d-flex">
+							<div class="w-100">
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="card">
+											<div class="card-body">
+												<div class="row">
+													<div class="col mt-0">
+														<h5 class="card-title">Sales</h5>
+													</div>
+
+													<div class="col-auto">
+														<div class="stat text-primary">
+															<i class="align-middle" data-feather="truck"></i>
+														</div>
+													</div>
+												</div>
+												<h1 class="mt-1 mb-3">$4.7M</h1>
+												<div class="mb-0">
+													<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> +42% </span>
+													<span class="text-muted">Since last week</span>
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-body">
+												<div class="row">
+													<div class="col mt-0">
+														<h5 class="card-title">Visitors</h5>
+													</div>
+
+													<div class="col-auto">
+														<div class="stat text-primary">
+															<i class="align-middle" data-feather="users"></i>
+														</div>
+													</div>
+												</div>
+												<h1 class="mt-1 mb-3">35,276</h1>
+												<div class="mb-0">
+													<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 15.7% </span>
+													<span class="text-muted">Since last week</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="card">
+											<div class="card-body">
+												<div class="row">
+													<div class="col mt-0">
+														<h5 class="card-title">Earnings</h5>
+													</div>
+
+													<div class="col-auto">
+														<div class="stat text-primary">
+															<i class="align-middle" data-feather="dollar-sign"></i>
+														</div>
+													</div>
+												</div>
+												<h1 class="mt-1 mb-3">$1.5M</h1>
+												<div class="mb-0">
+													<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 26% </span>
+													<span class="text-muted">Since last week</span>
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-body">
+												<div class="row">
+													<div class="col mt-0">
+														<h5 class="card-title">Closings</h5>
+													</div>
+
+													<div class="col-auto">
+														<div class="stat text-primary">
+															<i class="align-middle" data-feather="shopping-cart"></i>
+														</div>
+													</div>
+												</div>
+												<h1 class="mt-1 mb-3">203</h1>
+												<div class="mb-0">
+													<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 18% </span>
+													<span class="text-muted">Since last week</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xl-6 col-xxl-7">
+							<div class="card flex-fill w-100">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Calendar</h5>
+								</div>
+								<div class="card-body py-3">
+									<div class="chart chart-sm">
+										<canvas id="chartjs-dashboard-line"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+
+						<div class="col-12 col-md-12 col-xxl-6 d-flex order-3 order-xxl-2">
+							<div class="card flex-fill w-100">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Recent Movement</h5>
+								</div>
+								<div class="card-body px-4">
+									<div id="world_map" style="height:350px;"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-xxl-3 d-flex order-1 order-xxl-1">
+							<div class="card flex-fill">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Real time</h5>
+								</div>
+								<div class="card-body d-flex">
+									<div class="align-self-center w-100">
+										<div class="chart">
+											<div id="datetimepicker-dashboard"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 col-lg-8 col-xxl-9 d-flex">
+							<div class="card flex-fill">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Latest Projects</h5>
+								</div>
+								<table class="table table-hover my-0">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th class="d-none d-xl-table-cell">Start Date</th>
+											<th class="d-none d-xl-table-cell">End Date</th>
+											<th>Status</th>
+											<th class="d-none d-md-table-cell">Assignee</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Project Apollo</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Vanessa Tucker</td>
+										</tr>
+										<tr>
+											<td>Project Fireball</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-danger">Cancelled</span></td>
+											<td class="d-none d-md-table-cell">William Harris</td>
+										</tr>
+										<tr>
+											<td>Project Hades</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Sharon Lessman</td>
+										</tr>
+										<tr>
+											<td>Project Nitro</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-warning">In progress</span></td>
+											<td class="d-none d-md-table-cell">Vanessa Tucker</td>
+										</tr>
+										<tr>
+											<td>Project Phoenix</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">William Harris</td>
+										</tr>
+										<tr>
+											<td>Project X</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Sharon Lessman</td>
+										</tr>
+										<tr>
+											<td>Project Romeo</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Christina Mason</td>
+										</tr>
+										<tr>
+											<td>Project Wombat</td>
+											<td class="d-none d-xl-table-cell">01/01/2021</td>
+											<td class="d-none d-xl-table-cell">31/06/2021</td>
+											<td><span class="badge bg-warning">In progress</span></td>
+											<td class="d-none d-md-table-cell">William Harris</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 col-xxl-3 d-flex">
+							<div class="card flex-fill w-100">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Monthly Sales</h5>
+								</div>
+								<div class="card-body d-flex w-100">
+									<div class="align-self-center chart chart-lg">
+										<canvas id="chartjs-dashboard-bar"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</main>
+
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="row text-muted">
+						<div class="col-6 text-start">
+							<p class="mb-0">
+								<a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Builders</strong></a> &copy;
+							</p>
+						</div>
+						<div class="col-6 text-end">
+							<ul class="list-inline">
+								<li class="list-inline-item">
+									<a class="text-muted" href="https://adminkit.io/" target="_blank">Support</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="https://adminkit.io/" target="_blank">Help Center</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="https://adminkit.io/" target="_blank">Privacy</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="https://adminkit.io/" target="_blank">Terms</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var ctx = document.getElementById("chartjs-dashboard-line").getContext("2d");
+			var gradient = ctx.createLinearGradient(0, 0, 0, 225);
+			gradient.addColorStop(0, "rgba(215, 227, 244, 1)");
+			gradient.addColorStop(1, "rgba(215, 227, 244, 0)");
+			// Line chart
+			new Chart(document.getElementById("chartjs-dashboard-line"), {
+				type: "line",
+				data: {
+					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+					datasets: [{
+						label: "Sales ($)",
+						fill: true,
+						backgroundColor: gradient,
+						borderColor: window.theme.primary,
+						data: [
+							2115,
+							1562,
+							1584,
+							1892,
+							1587,
+							1923,
+							2566,
+							2448,
+							2805,
+							3438,
+							2917,
+							3327
+						]
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					tooltips: {
+						intersect: false
+					},
+					hover: {
+						intersect: true
+					},
+					plugins: {
+						filler: {
+							propagate: false
+						}
+					},
+					scales: {
+						xAxes: [{
+							reverse: true,
+							gridLines: {
+								color: "rgba(0,0,0,0.0)"
+							}
+						}],
+						yAxes: [{
+							ticks: {
+								stepSize: 1000
+							},
+							display: true,
+							borderDash: [3, 3],
+							gridLines: {
+								color: "rgba(0,0,0,0.0)"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Pie chart
+			new Chart(document.getElementById("chartjs-dashboard-pie"), {
+				type: "pie",
+				data: {
+					labels: ["Chrome", "Firefox", "IE"],
+					datasets: [{
+						data: [4306, 3801, 1689],
+						backgroundColor: [
+							window.theme.primary,
+							window.theme.warning,
+							window.theme.danger
+						],
+						borderWidth: 5
+					}]
+				},
+				options: {
+					responsive: !window.MSInputMethodContext,
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					cutoutPercentage: 75
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Bar chart
+			new Chart(document.getElementById("chartjs-dashboard-bar"), {
+				type: "bar",
+				data: {
+					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+					datasets: [{
+						label: "This year",
+						backgroundColor: window.theme.primary,
+						borderColor: window.theme.primary,
+						hoverBackgroundColor: window.theme.primary,
+						hoverBorderColor: window.theme.primary,
+						data: [54, 67, 41, 55, 62, 45, 55, 73, 60, 76, 48, 79],
+						barPercentage: .75,
+						categoryPercentage: .5
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					scales: {
+						yAxes: [{
+							gridLines: {
+								display: false
+							},
+							stacked: false,
+							ticks: {
+								stepSize: 20
+							}
+						}],
+						xAxes: [{
+							stacked: false,
+							gridLines: {
+								color: "transparent"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var markers = [{
+					coords: [31.230391, 121.473701],
+					name: "Shanghai"
+				},
+				{
+					coords: [28.704060, 77.102493],
+					name: "Delhi"
+				},
+				{
+					coords: [6.524379, 3.379206],
+					name: "Lagos"
+				},
+				{
+					coords: [35.689487, 139.691711],
+					name: "Tokyo"
+				},
+				{
+					coords: [23.129110, 113.264381],
+					name: "Guangzhou"
+				},
+				{
+					coords: [40.7127837, -74.0059413],
+					name: "New York"
+				},
+				{
+					coords: [34.052235, -118.243683],
+					name: "Los Angeles"
+				},
+				{
+					coords: [41.878113, -87.629799],
+					name: "Chicago"
+				},
+				{
+					coords: [51.507351, -0.127758],
+					name: "London"
+				},
+				{
+					coords: [40.416775, -3.703790],
+					name: "Madrid "
+				}
+			];
+			var map = new jsVectorMap({
+				map: "world",
+				selector: "#world_map",
+				zoomButtons: true,
+				markers: markers,
+				markerStyle: {
+					initial: {
+						r: 9,
+						strokeWidth: 7,
+						stokeOpacity: .4,
+						fill: window.theme.primary
+					},
+					hover: {
+						fill: window.theme.primary,
+						stroke: window.theme.primary
+					}
+				},
+				zoomOnScroll: false
+			});
+			window.addEventListener("resize", () => {
+				map.updateSize();
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var date = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000);
+			var defaultDate = date.getUTCFullYear() + "-" + (date.getUTCMonth() + 1) + "-" + date.getUTCDate();
+			document.getElementById("datetimepicker-dashboard").flatpickr({
+				inline: true,
+				prevArrow: "<span title=\"Previous month\">&laquo;</span>",
+				nextArrow: "<span title=\"Next month\">&raquo;</span>",
+				defaultDate: defaultDate
+			});
+		});
+	</script>
+</body>
